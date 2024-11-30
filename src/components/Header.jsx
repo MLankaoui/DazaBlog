@@ -1,6 +1,6 @@
 const Header = () => {
     return <>
-        <ul className="flex justify-around flex-wrap p-7 bg-dark bg-slate-800 text-gray-400 font-bold">
+        <ul className="flex justify-around flex-wrap p-5 bg-slate-800 text-lime-900 font-bold">
             <li>Home</li>
             <li>About me</li>
             <li>Projects</li>
