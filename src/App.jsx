@@ -7,6 +7,8 @@ import { scroll } from "motion"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./components/Home.jsx";
 import AboutPage from "./components/AboutPage.jsx";
+import Projects from "./components/Projects.jsx";
+import NotFound from "./components/NotFound.jsx";
 
 function App() {
 
@@ -14,8 +16,10 @@ function App() {
     <div>
         <Router>
             <Routes>
-                <Route path ="/" element={<Home />} />
-                <Route path ="/about" element={<AboutPage />} />
+                <Route path="/" element={<Home/>}/>
+                <Route path="/about" element={<AboutPage/>}/>
+                <Route path="/projects" element={<Projects/>}/>
+                <Route path="*" element={<NotFound />}/>
             </Routes>
         </Router>
 
