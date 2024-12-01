@@ -1,8 +1,24 @@
-# React + Vite
+# Daza Portfolio 💼
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- A simple portfolio web app created for me to practice my React knowledge and to learn along the way by building simple apps like this.
 
-Currently, two official plugins are available:
+## getting started:
+1. clone the repo: 📋
+```bash
+   git clone https://github.com/MLankaoui/DazaBlog
+```
+2. cd into the project directory: 📁
+```bash
+    cd DazaBlog
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+3. install all dependencies used (using a dependency manager npm for instance): 🛠️
+```bash
+    npm install
+```
+4. run the developer environment: ⚙️
+```bash
+    npm run dev
+```
+
+# ENJOY ❤️
