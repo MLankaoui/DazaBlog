@@ -7,7 +7,7 @@ const AboutPage = () => {
         <>
             <Header />
             <div className="p-9 bg-slate-800">
-                <div className="mt-[240px] flex justify-around">
+                <div className="mt-[240px] flex flex-wrap items-center justify-around">
                     <div className="">
                         <h1 className="font-bold text-lime-900 text-5xl mb-5">
                             About me
