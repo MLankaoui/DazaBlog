@@ -18,7 +18,11 @@ const Header = () => {
                     <FontAwesomeIcon icon={faQuestion} className="mr-2"/>About me
                 </Link>
             </li>
-            <li> <FontAwesomeIcon icon={faScrewdriver} className="mr-2"/>Projects</li>
+            <li>
+                <Link to="/projects">
+                    <FontAwesomeIcon icon={faScrewdriver} className="mr-2"/>Projects
+                </Link>
+            </li>
             <li> <FontAwesomeIcon icon={faAddressBook} className="mr-2"/> Contact</li>
         </ul>
     </div>
