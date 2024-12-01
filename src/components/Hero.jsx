@@ -3,7 +3,7 @@ import heroImage from './images/guyonacomputer.png'
 const Hero = () => {
     return (
         <div className="bg-slate-800 p-20">
-            <div className="flex justify-around mt-20">
+            <div className="flex flex-wrap justify-around mt-20">
                 <div className="mt-20">
                     <h1 className="font-bold text-lime-900 text-5xl">Marouane Lankaoui</h1>
                     <p className="text-gray-400">
