@@ -1,0 +1,14 @@
+.background-circle {
+    width: 250px;
+    height: 250px;
+    background-color: #4d7c0f; /* Bootstrap's lime-900 equivalent */
+    border-radius: 50%;
+    position: absolute;
+    z-index: 0;
+}
+
+.hero-image {
+    max-height: 250px;
+    z-index: 1;
+    margin-left: 20px;
+}
