@@ -2,19 +2,19 @@ import heroImage from './images/guyonacomputer.png'
 
 const Hero = () => {
     return (
-        <div className="bg-slate-800 p-20">
-            <div className="flex flex-wrap justify-around mt-20">
-                <div className="mt-20">
-                    <h1 className="font-bold text-lime-900 text-5xl">Marouane Lankaoui</h1>
-                    <p className="text-gray-400">
+        <div className="container my-5">
+            <div className="row align-items-center">
+                {/* Text Content */}
+                <div className="col-12 col-md-6 mt-5 text-center text-md-start">
+                    <h1 className="fw-bold text-success display-4">Marouane Lankaoui</h1>
+                    <p className="text-muted">
                         Business Administration student and an aspiring web developer.
                     </p>
                 </div>
-                <div className="relative">
-                    <div className="rounded-full bg-lime-900 size-96 z-0"></div>
-                    <div className="absolute bottom-0 left-0">
-                        <img  alt="Hero" className="h-full ml-12 z-10" src={heroImage} />
-                    </div>
+                {/* Image Content */}
+                <div className="col-12 col-md-6 position-relative d-flex justify-content-center">
+                    <div className="background-circle"></div>
+                    <img alt="Hero" className="position-relative hero-image" src={heroImage}/>
                 </div>
             </div>
         </div>

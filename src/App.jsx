@@ -10,6 +10,7 @@ import AboutPage from "./components/AboutPage.jsx";
 import Projects from "./components/Projects.jsx";
 import NotFound from "./components/NotFound.jsx";
 import Contact from "./components/Contact.jsx";
+import "./App.css"
 
 function App() {
 
