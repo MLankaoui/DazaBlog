@@ -1,5 +1,5 @@
 import Header from "./Header.jsx";
-import image from "./images/marouanee.jpg"
+import image from "../assets/images/marouanee.jpg"
 
 
 const AboutPage = () => {
