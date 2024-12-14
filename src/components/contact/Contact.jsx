@@ -41,12 +41,12 @@ const Contact = () => {
             <section>
                 <div className="container py-5">
                     <h2 className="text-center mb-4 display-4 text-success fw-bold">Contact Us</h2>
-                    <p className="text-center text-muted mb-5 fs-5">
+                    <p className="text-center text-white mb-5 fs-5">
                         Got a technical issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.
                     </p>
                     <form onSubmit={onSubmit} className="row g-4">
                         <div className="col-md-6">
-                            <label htmlFor="name" className="form-label">Your Name</label>
+                            <label htmlFor="name" className="form-label text-white">Your Name</label>
                             <input
                                 name="name"
                                 type="text"
@@ -57,7 +57,7 @@ const Contact = () => {
                             />
                         </div>
                         <div className="col-md-6">
-                            <label htmlFor="email" className="form-label">Your Email</label>
+                            <label htmlFor="email" className="form-label text-white">Your Email</label>
                             <input
                                 name="email"
                                 type="email"
@@ -68,7 +68,7 @@ const Contact = () => {
                             />
                         </div>
                         <div className="col-12">
-                            <label htmlFor="subject" className="form-label">Subject</label>
+                            <label htmlFor="subject" className="form-label text-white">Subject</label>
                             <input
                                 name="subject"
                                 type="text"
@@ -79,7 +79,7 @@ const Contact = () => {
                             />
                         </div>
                         <div className="col-12">
-                            <label htmlFor="message" className="form-label">Your Message</label>
+                            <label htmlFor="message" className="form-label text-white">Your Message</label>
                             <textarea
                                 name="message"
                                 id="message"
