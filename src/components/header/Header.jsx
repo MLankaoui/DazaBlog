@@ -4,7 +4,7 @@ import { faQuestion } from "@fortawesome/free-solid-svg-icons";
 import { faScrewdriver } from "@fortawesome/free-solid-svg-icons";
 import { faAddressBook } from "@fortawesome/free-solid-svg-icons";
 import {Link} from "react-router-dom";
-import heroImage from "../assets/images/guyonacomputer.png";
+import heroImage from "../../assets/images/guyonacomputer.png";
 
 const Header = () => {
     return <div className="container">

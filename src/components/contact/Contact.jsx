@@ -1,4 +1,4 @@
-import Header from "./Header.jsx";
+import Header from "../header/Header.jsx";
 import Swal from 'sweetalert2';
 
 const Contact = () => {

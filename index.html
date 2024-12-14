@@ -5,9 +5,42 @@
     <link rel="icon" type="image/svg+xml" href="/public/marouanee.jpg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DAZA</title>
+
+    <style>
+      #spinner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 400px;
+        height: 100%;
+        width: 100%;
+      }
+
+      .loading {
+        width: 50px;
+        height: 50px;
+        border: 6px solid #f3f3f3; /* Light gray */
+        border-top: 6px solid #13de17; /* Blue */
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
   </head>
   <body style="background-color: #708090">
-    <div id="root"></div>
+    <div id="root">
+      <div id="spinner" class="container">
+        <div class="loading"></div>
+      </div>
+    </div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

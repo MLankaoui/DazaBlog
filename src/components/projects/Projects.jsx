@@ -1,6 +1,6 @@
-import Header from "./Header.jsx";
-import dazareact from '../../public/dazareact.jpg';
-import htmlportfolio from "../../public/marouane.jpg"
+import Header from "../header/Header.jsx";
+import dazareact from '../../../public/dazareact.jpg';
+import htmlportfolio from "../../../public/marouane.jpg"
 
 const Projects = () => {
     const projects = [
