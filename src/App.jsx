@@ -1,15 +1,15 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import Header from "./components/Header.jsx";
-import Hero from "./components/Hero.jsx";
+import Header from "./components/header/Header.jsx";
+import Hero from "./components/hero/Hero.jsx";
 import { scroll } from "motion"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./components/Home.jsx";
-import AboutPage from "./components/AboutPage.jsx";
-import Projects from "./components/Projects.jsx";
-import NotFound from "./components/NotFound.jsx";
-import Contact from "./components/Contact.jsx";
+import Home from "./components/home/Home.jsx";
+import AboutPage from "./components/about/AboutPage.jsx";
+import Projects from "./components/projects/Projects.jsx";
+import NotFound from "./components/notfound/NotFound.jsx";
+import Contact from "./components/contact/Contact.jsx";
 import "./App.css";
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
