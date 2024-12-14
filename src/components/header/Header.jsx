@@ -8,7 +8,7 @@ import heroImage from "../../assets/images/guyonacomputer.png";
 
 const Header = () => {
     return <div className="container">
-        <nav className="navbar navbar-expand-lg navbar-light">
+        <nav className="navbar navbar-expand-lg navbar-dark">
             <div className="container-fluid">
                 <Link to="/" className="navbar-brand">
                     Marouane

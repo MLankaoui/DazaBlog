@@ -12,7 +12,7 @@ const AboutPage = () => {
                         <h1 className="fw-bold text-success display-4 mb-4">
                             About Me
                         </h1>
-                        <p className="fs-5" style={{maxWidth: "600px"}}>
+                        <p className="fs-5 text-white" style={{maxWidth: "600px"}}>
                             Hi, I’m <span className="fw-bold text-success">Marouane</span>, a passionate learner and
                             aspiring developer currently pursuing a
                             bachelor’s degree in Business Administration. With a background in physics and chemistry,

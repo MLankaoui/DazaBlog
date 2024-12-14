@@ -7,7 +7,7 @@ const Hero = () => {
                 {/* Text Content */}
                 <div className="col-12 col-md-6 mt-5 text-center text-md-start">
                     <h1 className="fw-bold text-success display-4">Marouane Lankaoui</h1>
-                    <p className="text-muted">
+                    <p className="text-white">
                         Business Administration student and an aspiring web developer.
                     </p>
                 </div>
